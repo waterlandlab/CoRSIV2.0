@@ -1,0 +1,21 @@
+# Raw and large data files — obtain via Data Availability section of the manuscript
+data/raw/
+data/processed/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Jupyter executed output notebooks (keep source, not executed copies)
+*_executed.ipynb
